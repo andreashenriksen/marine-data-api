@@ -57,6 +57,12 @@ Before you begin, ensure you have the following installed:
    ```bash
    java -jar target/marine-data-api-1.0.jar
    ```
+   or using Docker:
+
+   ```bash
+   docker build -t marine-data-api .
+   docker run -p 8080:8080 marine-data-api
+   ```
    
 ## Usage
 ### Endpoints
